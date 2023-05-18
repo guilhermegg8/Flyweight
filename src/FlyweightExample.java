@@ -12,7 +12,7 @@ public class FlyweightExample {
         characterA2.printCharacter();
 
         CharacterFlyweight characterA3 = factory.getCharacterFlyweight('A');
-        characterA2.printCharacter();
+        characterA3.printCharacter();
 
 
         // As duas instâncias de 'A' são o mesmo objeto Flyweight compartilhado
